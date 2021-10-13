@@ -42,7 +42,7 @@ footer.footer-main {
     padding: 20px 0;
     background: #F5F5F5;
     border-top: 1px #EAEAEA solid;
-    margin-top: auto;
+    margin-top: 20px;
     font-size: 14px;
 }
 
@@ -62,6 +62,7 @@ footer.footer-main .copyright {
 @media only screen and (min-width: 768px) {
     footer.footer-main {
         padding: 30px 0;
+        margin-top: 30px;
     }
     footer .footer-links {
         font-size: 18px;
