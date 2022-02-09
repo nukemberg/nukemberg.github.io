@@ -1,3 +1,21 @@
+blockquote {
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    border-left: 0.25rem solid #ccc;
+    padding-left: 0.5rem;
+    background: #f9f9f9;
+}
+blockquote>p::before {
+    content: open-quote;
+    color: lightslategray;
+    font-size: 1.5rem;
+}
+blockquote>p::after {
+    content: close-quote;
+    color:lightslategray;
+    font-size: 1.5rem;
+}
+
 .navbar-custom .avatar-container {
     opacity: 1;
     visibility: visible;
